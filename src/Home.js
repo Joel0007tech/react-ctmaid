@@ -1,4 +1,5 @@
 import React from "react";
+import Image from './ctmaid 1.png'
 const ListStyling = {
   listStyle: "none",
   display: "flex",
@@ -88,6 +89,7 @@ function Home() {
     <div>
       <header>
         <nav>
+        <img src={Image} alt=""/>
           <ul style={ListStyling}>
             <li>
               <a
